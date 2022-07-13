@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<fieldset>
+  <legend>Your Details:</legend>
+  <label>Name:</label>
+  <input type="text" name="name" />
+    <br/>
+    <label>Email:</label>
+    <input type="text" name="email" />
+</fieldset>
+
+<fieldset>
+    <legend>Your Review:</legend>
+    <label>How did you hear about us?
+        <select name="saobiet">
+            <option value="google">Google</option>
+            <option value="bing">Bing</option>
+            <option value="other">Other</option>
+        </select>
+    </label>
+    <p>Would you visit again?
+    <br />
+    <input type="radio" name="visit_again" value="Yes">Yes</input>
+    <input type="radio" name="visit_again" value="No">No</input>
+    <input type="radio" name="visit_again" value="Maybe">Maybe</input>
+    </p>
+    <label>Comments:</label>
+    <br/>
+    <textarea name="Comment" id="" cols="30" rows="10"></textarea>
+    <br />
+    <input type="checkbox" name="SignMe" value="signme" checked="checked" />
+    <label>Sign me up for email updates</label>
+    <br />
+    <input type="submit" value="Submit review" />
+</fieldset>
+</body>
+</html>
